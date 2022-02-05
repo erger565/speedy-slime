@@ -7,3 +7,7 @@ Currently has 15 levels, check out the itch page: https://supercraftd.itch.io/sp
 
 # Reproduction
 private and non-commercial use is allowed. You may not re-upload, even with edits, for the public, even without profit.
+
+# Play
+
+play it on itch or here https://supercraftd.github.io/speedy-slime/ if itch is blocked or something.
