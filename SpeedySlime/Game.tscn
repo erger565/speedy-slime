@@ -1,0 +1,54 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Game.gd" type="Script" id=1]
+[ext_resource path="res://Stopwatch.gd" type="Script" id=2]
+[ext_resource path="res://assets/SupermercadoOne-Regular.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://assets/SpeedySlimeForReal.mp3" type="AudioStream" id=4]
+[ext_resource path="res://assets/jump.wav" type="AudioStream" id=5]
+[ext_resource path="res://assets/powerUp.wav" type="AudioStream" id=6]
+[ext_resource path="res://assets/hitHurt.wav" type="AudioStream" id=7]
+[ext_resource path="res://assets/powerUp-2 (1).wav" type="AudioStream" id=8]
+
+[sub_resource type="DynamicFont" id=1]
+size = 19
+font_data = ExtResource( 3 )
+
+[node name="Game" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Stopwatch" type="Node" parent="."]
+script = ExtResource( 2 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 5
+
+[node name="Time" type="Label" parent="CanvasLayer"]
+margin_left = 306.59
+margin_top = 2.04537
+margin_right = 335.59
+margin_bottom = 25.0454
+custom_fonts/font = SubResource( 1 )
+text = "0.01"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = -10.0
+
+[node name="SFXJump" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+volume_db = -15.0
+
+[node name="SFXKey" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+volume_db = -15.0
+
+[node name="SFXHurt" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+
+[node name="SFXWin" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 8 )
+volume_db = -10.0

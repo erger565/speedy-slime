@@ -1,0 +1,19 @@
+[gd_scene format=2]
+
+[node name="JumpPart" type="CPUParticles2D"]
+emitting = false
+amount = 90
+lifetime = 2.0
+one_shot = true
+speed_scale = 2.0
+explosiveness = 0.63
+randomness = 0.44
+lifetime_randomness = 1.0
+emission_shape = 1
+emission_sphere_radius = 14.76
+spread = 90.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 75.27
+initial_velocity_random = 1.0
+orbit_velocity = 390.0
+color = Color( 0.2, 1, 0.00784314, 1 )
