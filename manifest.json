@@ -1,0 +1,40 @@
+{
+  "name": "Minigames.io",
+  "short_name": "Minigames.io",
+  "icons": [{
+    "src": "./1.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }, {
+      "src": "./2.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }, {
+      "src": "./3.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }, {
+      "src": "./4.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }, {
+      "src": "./5.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }, {
+      "src":  "./6.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }],
+  "lang": "en-US",
+  "start_url": "https://er1ger565.github.io/minigames",
+  "background_color": "white",
+  "theme_color": "white",
+  "display": "standalone"
+}
